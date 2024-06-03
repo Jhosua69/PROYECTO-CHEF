@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="ssets/images/logoMascota.jpg" />
+</head>
+
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="row w-100 m-0">
+                <div class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg"
+                    style="background-image: url('https://img.freepik.com/foto-gratis/interior-acogedor-estilo-anime-muebles_23-2151176385.jpg?w=1380&t=st=1717434109~exp=1717434709~hmac=a64af338489ccf99f54043cd1ed235e076112b6dfa424887fb758665bc5f6b19');
+                    background-size: cover; background-position: center;">
+                    <div class="card col-lg-4 mx-auto">
+                        <div class="card-body px-5 py-5">
+                            <h3 class="card-title text-left mb-3 text-center">Registro</h3>
+                            <form>
+                                <div id="mensaje" class="alert" role="alert" style="display: none;">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <strong id="mensaje-texto"></strong>
+                                </div>
+                                <div class="form-group">
+                                    <label for="n">Nombre</label>
+                                    <input type="text" class="form-control p_input" style="color: aqua;" id="n">
+                                </div>
+                                <div class="form-group">
+                                    <label for="ap">Apellido Paterno</label>
+                                    <input type="text" class="form-control p_input" style="color: aqua;" id="ap">
+                                </div>
+                                <div class="form-group">
+                                    <label for="am">Apellido Materno</label>
+                                    <input type="text" class="form-control p_input" style="color: aqua;" id="am">
+                                </div>
+                                <div class="form-group">
+                                    <label for="f">Fecha de nacimiento</label>
+                                    <input type="date" class="form-control p_input" style="color: aqua;" id="f">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pass">Contraseña</label>
+                                    <input type="password" class="form-control p_input" style="color: aqua;" id="pass">
+                                </div>
+                                <div class="text-center">
+                                    <button onclick="return registerGmail()" class="btn btn-primary btn-block enter-btn">Generar Gmail</button>
+                                </div>
+                                <p class="terms">Al crear una cuenta gmail está aceptando nuestro<a href="#"> Terminos y Condiciones</a></p>
+                                <br>
+                                
+                                <script src="js/crearCuenta.js"></script>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+            </div>
+            <!-- row ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+        <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+        <!-- endinject -->
+        <!-- Plugin js for this page -->
+        <!-- End plugin js for this page -->
+        <!-- inject:js -->
+        <script src="assets/js/off-canvas.js"></script>
+        <script src="assets/js/hoverable-collapse.js"></script>
+        <script src="assets/js/misc.js"></script>
+        <script src="assets/js/settings.js"></script>
+        <script src="assets/js/todolist.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="assets/images/logoMascota.jpg" />
+</head>
+
+<body>
+    <div class="row">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="row w-100 m-0">
+                <div class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg"
+                style="background-image: url('https://img.freepik.com/foto-gratis/interior-acogedor-estilo-anime-muebles_23-2151176385.jpg?w=1380&t=st=1717434109~exp=1717434709~hmac=a64af338489ccf99f54043cd1ed235e076112b6dfa424887fb758665bc5f6b19'); 
+                    background-size: cover; background-position: center;">
+                    <div class="card col-lg-4 mx-auto">
+                        <div class="card-body px-5 py-5">
+                            <h3 class="card-title text-left mb-3 text-center">Iniciar Sesion</h3>
+                            <form onsubmit="return login()">
+                                <div id="mensaje" class="alert" role="alert" style="display: none;">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <strong id="mensaje-texto"></strong>
+                                </div>
+                                <div class="form-group">
+                                    <label for="u">Usuario</label>
+                                    <input type="text" class="form-control p_input" style="color: aqua;" id="u">
+                                </div>
+                                <div class="form-group">
+                                    <label for="p">Contraseña</label>
+                                    <input type="password" class="form-control p_input" style="color: aqua;" id="p">
+                                </div>
+                                <div class="form-group d-flex align-items-center justify-content-between">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input"> Recordar contraseña
+                                        </label>
+                                    </div>
+                                    <a href="#" class="forgot-pass">¿Olvidaste tu contraseña?</a>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary btn-block enter-btn">Login</button>
+                                </div>
+                                <div class="d-flex">
+                                    <button type="button" class="btn btn-facebook col mr-2">
+                                        <i class="mdi mdi-facebook"></i> Facebook </button>
+                                    <button type="button" class="btn btn-google col">
+                                        <i class="mdi mdi-google"></i> Google</button>
+                                </div>
+                                <p class="sign-up text-center">¿No tienes cuenta? <a href="paginas/registro.html">Crear Cuenta</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+            </div>
+            <!-- row ends -->
+        </div>
+    </div>
+    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="assets/js/off-canvas.js"></script>
+    <script src="assets/js/hoverable-collapse.js"></script>
+    <script src="assets/js/misc.js"></script>
+    <script src="assets/js/settings.js"></script>
+    <script src="assets/js/todolist.js"></script>
+    <script src="js/iniciarSesion.js"></script>
+</body>
+
+</html>
