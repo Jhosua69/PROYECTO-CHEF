@@ -18,7 +18,7 @@ function registerGmail() {
 
     // Mostrar el correo generado en una alerta y redirigir a index.html
     alert("Correo generado: " + correo);
-    window.location.href = "index.html";
+    window.location.href = "paginas/index.html";
 
     return false; // Evitar el envío del formulario
 }
