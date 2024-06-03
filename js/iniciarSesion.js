@@ -20,7 +20,7 @@ function login() {
 
         // Redirigir a la página chef.html después de 2 segundos
         setTimeout(function() {
-            window.location.href = "chef.html";
+            window.location.href = "paginas/chef.html";
         }, 2000);
 
         // Resetear el contador de intentos
